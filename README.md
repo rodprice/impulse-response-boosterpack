@@ -12,8 +12,7 @@ measurement process a little easier.
 What's hard about it?
 ---------------------
 
-Going from digital to analog to digital
----------------------------------------
+### Going from digital to analog to digital
 
 Most often, we'd like to have our results in digital form, so we can
 plot it, analyze it, and so forth.  That means converting between
@@ -29,8 +28,7 @@ quantization noise, for starters.  You have to do these things on both
 sides:  the ADC side and the DAC side.  Oh, wait... the processors
 included with the Launchpads don't have DACs.  
 
-Removing environmental effects
-------------------------------
+### Removing environmental effects
 
 Once past the engineering issues of moving between digital and analog
 domains, you're still not home free.  Consider what happens when you
